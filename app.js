@@ -11,7 +11,7 @@ bot.hears('hello', (ctx) => ctx.reply('Hey there'));
 bot.hears('kitto', (ctx) => ctx.reply('Brother please add me in your gp'));
 bot.hears('k', (c) => c.reply('Brother please add me in your gp'));
 bot.hears('I am Richard', (c) => c.reply('Bro how the war is going'));
-bot.hears('', (c) => c.reply('Bro how the war is going'));
+// bot.hears('', (c) => c.reply('Bro how the war is going'));
 bot.on('message', (c)=> c.reply(' Thanks for chating with richard '));
 // bot.text('hello',(ctx)=>ctx.reply("hello brother"))
 
